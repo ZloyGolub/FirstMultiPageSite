@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap');
+
+* {
+    margin: 0;    
+    padding: 0;
+}
+
+html {
+    margin: 0;    
+    padding: 0;
+    width: 100%;
+}
+
+
+body {
+    font-family: Raleway;
+    margin: 0;     
+    padding: 0;
+    min-width: 350px;
+}
+
+.topForFlexLeft {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between; 
+    margin-top: .5%;
+    margin-bottom: .5%;
+}
+
+#inerRight {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    font-size: small;
+    margin-top: .5%;
+    margin-bottom: .5%;
+}
+
+#inerRight > img {
+    padding-right: 20px;
+}
+
+#inerRightFlex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}
+
+@media screen and (min-width: 992px) {
+    .topForFlexLeft {
+
+        margin-right: 50%;
+    }
+}
+

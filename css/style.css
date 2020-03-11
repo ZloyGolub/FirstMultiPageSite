@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Play|Raleway&display=swap');
 
 * {
     margin: 0;    
@@ -18,6 +18,8 @@ body {
     padding: 0;
     min-width: 350px;
 }
+
+/*top*/
 
 .topForFlexLeft {
     display: flex;
@@ -59,3 +61,10 @@ body {
     }
 }
 
+/*navigation*/
+
+#navigationSet {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}

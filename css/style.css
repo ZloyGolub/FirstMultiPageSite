@@ -27,13 +27,19 @@ body {
     margin-bottom: .5%;
 }
 
+.border-5 {
+    border-width: 2px !important;
+    border-color: black !important;
+}
+
 #inerRight {
     display: flex;
     align-items: center;
     justify-content: flex-start; 
     font-size: small;
     margin-top: .5%;
-    margin-bottom: .5%;
+    margin-bottom: .5%;    
+    font-family: fantasy;
 }
 
 #inerRight > img {

@@ -17,6 +17,7 @@ body {
     margin: 0;     
     padding: 0;
     min-width: 350px;
+    font-size: 10px;
 }
 
 /*top*/
@@ -52,11 +53,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around; 
+
 }
 
 @media screen and (min-width: 992px) {
     .topForFlexLeft {
-
         margin-right: 50%;
     }
 }
@@ -67,4 +68,94 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
+    font-size: 1.3rem;
+}
+
+
+#navigationSet > a:not(:last-child){
+    margin-right: 4%;
+}
+
+.link {
+    color: #363636;
+}
+
+.link:hover {
+    color: cornflowerblue;   
+    transition: color 0.2s linear;    
+    text-decoration: none;
+}
+
+.active {
+    color: cornflowerblue;
+}
+/*<img src="images/logos/checkbox-logo.png" alt="" height="150px">*/
+
+#logoBackground {
+    background-image: url('../images/logos/checkbox-logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+}
+
+
+@media screen and (min-width: 992px) {
+    #logoBackground {
+        height: 150px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    #logoBackground {
+        height: 200px;
+    }
+}
+
+/*slider*/
+
+#slider {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    background: #363636;
+    color: white;
+    font-size: 4.0rem;
+    min-height: 500px;
+    text-align: center;
+}
+
+#infoLogo {
+    font-size: 2.0rem;
+}
+
+.sButtons {
+    text-align: center;
+    background: transparent;
+    border-color: white;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-width: 1px;
+    /*border-radius: 4px;*/
+}
+
+#aboutButton {
+    height: 50px;
+    font-size: 1.4rem;
+    
+}
+
+#sideButtonLeft, #sideButtonRight{
+    height: 80px;
+    width: 80px;
+    font-size: 2rem;
+}
+
+#sideButtonLeft {
+    margin-left: 2%;
+}
+
+#sideButtonRight {
+    margin-right: 2%;
 }

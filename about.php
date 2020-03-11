@@ -21,29 +21,21 @@
         include('navigation.php');
     ?>
 
-    <div id="slider">
-            <button class="sButtons" id="sideButtonLeft"><</button>
-                <div class="container align-self-center">
-                        <div class="col-xl-6 offset-xl-3" id="bigLogo">We care about your business.</div>
-                        <div class="col-xl-6 offset-xl-3" id="infoLogo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, porro!</div>
-                        <button class="sButtons" id="aboutButton">ABOUT US</button>
-                </div>
-           <button class="sButtons" id="sideButtonRight">></button>
-    </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-<script>
-    $( document ).ready(function() {
-        $(".link").each(
-            function()
-            {
-                $(this).removeClass("active");
-            }
-        )
-        $("#index").attr("class", "link active");
-    });
-</script>
+    <script>
+        $( document ).ready(function() {
+            $(".link").each(
+                function()
+                {
+                    $(this).removeClass("active");
+                }
+            )
+            $("#about").attr("class", "link active");
+        });
+    </script>
 
 </body>
 </html>

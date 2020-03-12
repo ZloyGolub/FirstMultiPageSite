@@ -159,3 +159,38 @@ body {
 #sideButtonRight {
     margin-right: 2%;
 }
+
+/*services*/
+
+.services {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+
+.service_set {
+    margin-bottom: 50px;
+}
+
+.service_set > p {    
+    text-transform: uppercase;
+    font-size: 2.0em;
+    font-family: "Myriad Pro";
+    color: #22a7f0;
+}
+
+.service_set > div {
+    font-size: 1.4em;
+    font-family: "Open Sans";
+
+}
+
+/*recentProjects */
+
+.recentProjects {
+
+}
+
+.resP {
+    
+}

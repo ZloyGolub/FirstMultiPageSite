@@ -31,19 +31,98 @@
            <button class="sButtons" id="sideButtonRight">></button>
     </div>
 
+    <div class="container">
+        <div class="services">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-4">
+                    <div class="service_set">
+                        <img src="images/logos/twitch.svg" height="50px" alt="">
+                        <p>Nibh Ridiculus</p>
+                        <div>Donec ullamcorper nulla non metus auctor fringilla. Cum sociis natoque penatibus etmagnis dis parturie nt montes, nascetur.</div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4">
+                    <div class="service_set">
+                        <img src="images/logos/subway.svg" height="50px" alt="">
+                        <p>grammatica del</p>
+                        <div>Donec ullamcorper nulla non metus auctor fringilla. Cum sociis natoque penatibus etmagnis dis parturie nt montes, nascetur.</div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4">
+                    <div class="service_set">
+                        <img src="images/logos/blind.svg" height="50px" alt="">
+                        <p>Europan lingues</p>
+                        <div>Donec ullamcorper nulla non metus auctor fringilla. Cum sociis natoque penatibus etmagnis dis parturie nt montes, nascetur.</div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-4">
+                    <div class="service_set">
+                        <img src="images/logos/slack.svg" height="50px" alt="">
+                        <p>ipsum quia</p>
+                        <div>Donec ullamcorper nulla non metus auctor fringilla. Cum sociis natoque penatibus etmagnis dis parturie nt montes, nascetur.</div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4">
+                    <div class="service_set">
+                        <img src="images/logos/telegram.svg" height="50px" alt="">
+                        <p>aliquam quaerat</p>
+                        <div>Donec ullamcorper nulla non metus auctor fringilla. Cum sociis natoque penatibus etmagnis dis parturie nt montes, nascetur.</div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4">
+                    <div class="service_set">
+                        <img src="images/logos/paper.svg" height="50px" alt="">
+                        <p>dolorem eum</p>
+                        <div>Donec ullamcorper nulla non metus auctor fringilla. Cum sociis natoque penatibus etmagnis dis parturie nt montes, nascetur.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="recentProjects">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-4">
+                    <p class="resP">recent projects</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-<script>
-    $( document ).ready(function() {
-        $(".link").each(
-            function()
-            {
-                $(this).removeClass("active");
-            }
-        )
-        $("#index").attr("class", "link active");
-    });
-</script>
+    <script>
+        $( document ).ready(function() {
+            $(".link").each(
+                function()
+                {
+                    $(this).removeClass("active");
+                }
+            )
+            $("#index").attr("class", "link active");
+        });
+    </script>
 
 </body>
 </html>

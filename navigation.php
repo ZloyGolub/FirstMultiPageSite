@@ -2,7 +2,7 @@
 
 <div class="container"> 
     <div class="navigation">
-        <div class="row">
+        <div class="row align-items-center">
             <div class="col-xl-3                col-lg-3            col-md-2    col-sm-12 align-self-center" id="logoBackground">            
             </div>
             <div class="col-xl-7 offset-xl-2    col-lg-9            col-md-10  col-sm-12 align-self-center">

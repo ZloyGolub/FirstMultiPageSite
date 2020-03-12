@@ -85,7 +85,49 @@
         <div class="recentProjects">
             <div class="row">
                 <div class="col-xl-4 col-lg-4 col-md-4">
-                    <p class="resP">recent projects</p>
+                    <p class="paragraphStyle">recent projects</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="funFacts">
+        <div class="container">
+            <div class="funFactsIn">
+                <div class="row align-items-center">
+
+                    <div class="col-xl-3 col-lg-3 col-md-3">
+                        <div class="factsSet">
+                            <div class="funNumber">456</div>
+                            <div class="line"></div>
+                            <div>HAPPY CLIENTS</div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-3 col-md-3">      
+                        <div class="factsSet">
+                            <div class="funNumber">56</div>
+                            <div class="line"></div>
+                            <div>PROJECTS</div>
+                        </div>                  
+                    </div>
+
+                    <div class="col-xl-3 col-lg-3 col-md-3">       
+                        <div class="factsSet">
+                            <div class="funNumber">456</div>
+                            <div class="line"></div>
+                            <div>HAPPY CLIENTS</div>
+                        </div>                 
+                    </div>
+
+                    <div class="col-xl-3 col-lg-3 col-md-3">
+                        <div class="factsSet">
+                            <div class="funNumber">456</div>
+                            <div class="line"></div>
+                            <div>HAPPY CLIENTS</div>
+                        </div>
+                    </div>
+                        
                 </div>
             </div>
         </div>
@@ -93,6 +135,16 @@
 
 
 
+    <div class="container">
+        <div class="fromBlog">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-4">
+                    <p class="paragraphStyle">from blog</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
 
 
 

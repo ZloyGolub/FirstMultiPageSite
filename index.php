@@ -20,68 +20,56 @@
     <?php
         include('navigation.php');
     ?>
-    <!--
-        <div id="slider">
-                <button class="sButtons" id="sideButtonLeft"><</button>
-                    <div class="container align-self-center">
-                            <div class="col-xl-6 offset-xl-3" id="bigLogo">We care about your business.</div>
-                            <div class="col-xl-6 offset-xl-3" id="infoLogo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, porro!</div>
-                            <button class="sButtons" id="aboutButton">ABOUT US</button>
-                    </div>
-            <button class="sButtons" id="sideButtonRight">></button>
-        </div>
-    -->
 
-    <div id="backgroundUnder">
-        <div id="slider">
-            <input type="radio" name="slider" id="slide1" checked>
-            <input type="radio" name="slider" id="slide2">
-            <input type="radio" name="slider" id="slide3">
-            <input type="radio" name="slider" id="slide4">
-            <div id="slides">
-                <div id="overflow">
-                    <div class="inner">
-                        <div class="slide slide_1">
-                        <div class="slide-content">
-                            <h2>Slide 1</h2>
-                            <p>Content for Slide 1</p>
-                        </div>
-                        </div>
-                        <div class="slide slide_2">
-                        <div class="slide-content">
-                            <h2>Slide 2</h2>
-                            <p>Content for Slide 2</p>
-                        </div>
-                        </div>
-                        <div class="slide slide_3">
-                        <div class="slide-content">
-                            <h2>Slide 3</h2>
-                            <p>Content for Slide 3</p>
-                        </div>
-                        </div>
-                        <div class="slide slide_4">
-                        <div class="slide-content">
-                            <h2>Slide 4</h2>
-                            <p>Content for Slide 4</p>
-                        </div>
-                        </div>
+    <div id="slider">
+        <input type="radio" name="slider" id="slide1" checked>
+        <input type="radio" name="slider" id="slide2">
+        <input type="radio" name="slider" id="slide3">
+        <input type="radio" name="slider" id="slide4">
+        <div id="slides">
+            <div id="overflow">
+                <div class="inner">
+                    <div class="slide slide_1">
+                    <div class="slide-content">
+                        <h2>Slide 1</h2>
+                        <p>Content for Slide 1</p>
+                    </div>
+                    </div>
+                    <div class="slide slide_2">
+                    <div class="slide-content">
+                        <h2>Slide 2</h2>
+                        <p>Content for Slide 2</p>
+                    </div>
+                    </div>
+                    <div class="slide slide_3">
+                    <div class="slide-content">
+                        <h2>Slide 3</h2>
+                        <p>Content for Slide 3</p>
+                    </div>
+                    </div>
+                    <div class="slide slide_4">
+                    <div class="slide-content">
+                        <h2>Slide 4</h2>
+                        <p>Content for Slide 4</p>
+                    </div>
                     </div>
                 </div>
             </div>
-            <div id="controls">
-                <label for="slide1"></label>
-                <label for="slide2"></label>
-                <label for="slide3"></label>
-                <label for="slide4"></label>
-            </div>
-            <div id="bullets">
-                <label for="slide1"></label>
-                <label for="slide2"></label>
-                <label for="slide3"></label>
-                <label for="slide4"></label>
-            </div>
+        </div>
+        <div id="controls">
+            <label for="slide1"></label>
+            <label for="slide2"></label>
+            <label for="slide3"></label>
+            <label for="slide4"></label>
+        </div>
+        <div id="bullets">
+            <label for="slide1"></label>
+            <label for="slide2"></label>
+            <label for="slide3"></label>
+            <label for="slide4"></label>
         </div>
     </div>
+
 
     <div class="container">
         <div class="services">
@@ -148,7 +136,7 @@
             <div class="funFactsIn">
                 <div class="row align-items-center">
 
-                    <div class="col-xl-3 col-lg-3 col-md-3">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
                         <div class="factsSet">
                             <div class="funNumber">456</div>
                             <div class="line"></div>
@@ -156,7 +144,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xl-3 col-lg-3 col-md-3">      
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">      
                         <div class="factsSet">
                             <div class="funNumber">56</div>
                             <div class="line"></div>
@@ -164,7 +152,7 @@
                         </div>                  
                     </div>
 
-                    <div class="col-xl-3 col-lg-3 col-md-3">       
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
                         <div class="factsSet">
                             <div class="funNumber">456</div>
                             <div class="line"></div>
@@ -172,7 +160,7 @@
                         </div>                 
                     </div>
 
-                    <div class="col-xl-3 col-lg-3 col-md-3">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
                         <div class="factsSet">
                             <div class="funNumber">456</div>
                             <div class="line"></div>
@@ -187,20 +175,126 @@
 
 
 
-    <div class="container">
-        <div class="fromBlog">
-            <div class="row">
-                <div class="col-xl-4 col-lg-4 col-md-4">
-                    <p class="paragraphStyle">from blog</p>
+    <div class="container" id="cheight">
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-6">
+                <p class="paragraphStyle">from blog</p>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6"></div>
+        </div>
+        <div id="sliderB">
+            <input type="radio" name="sliderB" id="slide1B" checked>
+            <input type="radio" name="sliderB" id="slide2B">
+            <input type="radio" name="sliderB" id="slide3B">
+            <input type="radio" name="sliderB" id="slide4B">
+
+            <div class="col-6" id="bulletsB">
+                <label for="slide1B"></label>
+                <label for="slide2B"></label>
+                <label for="slide3B"></label>
+                <label for="slide4B"></label>
+            </div>
+
+            <div id="slidesB">
+                <div id="overflowB">
+                    <div class="innerB">
+                        <div class="slideB slide_1B">
+                            <div class="slide-contentB">
+                                <h2>Slide 1</h2>
+                                <p>Content for Slide 1</p>
+                            </div>
+                        </div>
+                        <div class="slideB slide_2B">
+                            <div class="slide-contentB">
+                                <h2>Slide 2</h2>
+                                <p>Content for Slide 2</p>
+                            </div>
+                        </div>
+                        <div class="slideB slide_3B">
+                            <div class="slide-contentB">
+                                <h2>Slide 3</h2>
+                                <p>Content for Slide 3</p>
+                            </div>
+                        </div>
+                        <div class="slideB slide_4B">
+                            <div class="slide-contentB">
+                                <h2>Slide 4</h2>
+                                <p>Content for Slide 4</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="controlsB">
+                <label for="slide1B"></label>
+                <label for="slide2B"></label>
+                <label for="slide3B"></label>
+                <label for="slide4B"></label>
+            </div>   
+        </div>     
+    </div>
+
+    <div class="getInTouch">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-10 col-lg-10 col-md-10 textCenterBlyat">
+                    <div id="getText">GO AHEAD AND FIND OUT HOW WE CAN HELP YOU!</div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-2 flexCenterBlyat">
+                    <button id="getButton">GET IN TOUCH</button>
                 </div>
             </div>
         </div>
-        
     </div>
 
-
-
-
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+                    <p>ABAUT US</p>
+                    <div>Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen</div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+                    <p>RELATED LINKS</p>
+                    <div class="linkPointer">
+                        > <a href="#" class="linkF">Official Site</a>
+                        <br>
+                        > <a href="#" class="linkF">CreativeMarket profile</a>
+                        <br>
+                        > <a href="#" class="linkF">Materialzer page on CM</a>
+                        <br>
+                        > <a href="#" class="linkF">Electronic WP Theme</a>
+                        <br>
+                        > <a href="#" class="linkF">Was fav</a>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+                    <p>NEWS & MEDIA</p>
+                    <div class="linkPointer">
+                        > <a href="#" class="linkF">Events</a>
+                        <br>
+                        > <a href="#" class="linkF">News and Press Releases</a>
+                        <br>
+                        > <a href="#" class="linkF">Interviews</a>
+                        <br>
+                        > <a href="#" class="linkF">Subsidiaries Media Contacts</a>
+                        <br>
+                        > <a href="#" class="linkF">Media kit</a>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+                    <p>GET IN TOUCH</p>
+                    <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet exercitationem placeat ut quae aliquam mollitia!</div>
+                    <div>
+                        <br>
+                        <img src="images/logos/mailBlue.svg" height="20px" alt=""> 84 Street City, State 24813 <br>
+                        <img src="images/logos/telephoneBlue.svg" height="20px" alt=""> +00 (123) 456 78 90 <br>
+                        <img src="images/logos/mailBlue.svg" height="20px" alt=""> info@yourdomain.com
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 

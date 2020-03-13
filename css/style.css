@@ -9,6 +9,7 @@ html {
     margin: 0;    
     padding: 0;
     width: 100%;
+    font-size: 10px;
 }
 
 
@@ -17,15 +18,15 @@ body {
     margin: 0;     
     padding: 0;
     min-width: 350px;
-    font-size: 10px;
 }
 
 .paragraphStyle {
     font-family: Play;
-    font-size: 1.5rem;
+    font-size: 3rem;
     color: #22a7f0;
     text-transform: uppercase;
 }
+
 
 /*top*/
 
@@ -75,7 +76,7 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
-    font-size: 1.3rem;
+    font-size: 1.9rem;
 }
 
 
@@ -120,64 +121,6 @@ body {
 }
 
 /*slider*/
-/*
-#slider {
-    display: flex;
-    align-items: center;
-    justify-content: space-around; 
-    background: #363636;
-    color: white;
-    font-size: 4.0rem;
-    min-height: 500px;
-    text-align: center;
-}
-
-#infoLogo {
-    font-size: 2.0rem;
-}
-
-@media screen and (max-width: 554px) {
-    #slider {
-        font-size: 2.0rem;
-        min-height: 400px;
-    }
-
-    #infoLogo {
-        font-size: 1.0rem;
-    }
-}
-
-.sButtons {
-    text-align: center;
-    background: transparent;
-    border-color: white;
-    color: white;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-width: 1px;
-}
-
-#aboutButton {
-    height: 50px;
-    font-size: 1.4rem;
-    
-}
-
-#sideButtonLeft, #sideButtonRight{
-    height: 80px;
-    width: 80px;
-    font-size: 2rem;
-}
-
-#sideButtonLeft {
-    margin-left: 2%;
-}
-
-#sideButtonRight {
-    margin-right: 2%;
-}
-*/
-
 
 #slider {
     margin: 0 auto;
@@ -326,13 +269,13 @@ body {
 
 .service_set > p {    
     text-transform: uppercase;
-    font-size: 2.0em;
+    font-size: 2.5rem;
     font-family: "Play";
     color: #22a7f0;
 }
 
 .service_set > div {
-    font-size: 1.4em;
+    font-size: 1.8rem;
     font-family: "Open Sans";
 
 }
@@ -370,11 +313,11 @@ body {
 
 .factsSet > .funNumber {
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
 .funFacts > div {
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 
@@ -384,4 +327,200 @@ body {
     margin-top: 70px;
     margin-bottom: 70px;
     
+}
+
+#sliderB {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+}
+#sliderB input[type=radio] {
+    display: none;
+}
+#sliderB label {
+    cursor:pointer;
+    text-decoration: none;
+}
+#slidesB {
+    background: #fff;
+    position: relative;
+    z-index: 1;
+}
+#overflowB {
+    width: 100%;
+    overflow: hidden;
+}
+#slide1B:checked ~ #slidesB .innerB {
+    margin-left: 0;
+}
+#slide2B:checked ~ #slidesB .innerB {
+    margin-left: -100%;
+}
+#slide3B:checked ~ #slidesB .innerB {
+    margin-left: -200%;
+}
+#slide4B:checked ~ #slidesB .innerB {
+    margin-left: -300%;
+}
+#slidesB .innerB {
+    transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+    width: 400%;
+    line-height: 0;
+    height: 300px;
+}
+#slidesB .slideB {
+    width: 25%;
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #fff;
+}
+#slidesB .slide_1B {
+    background: #363636;
+}
+#slidesB .slide_2B {
+    background:#363636;
+}
+#slidesB .slide_3B {
+    background:#363636;
+}
+#slidesB .slide_4B {
+    background:#363636;
+}
+#controlsB {
+    margin: 0 0 0 0;
+    width: 100%;
+    height: 50px;
+    z-index: 3;
+    position: relative;
+}
+#controlsB label {
+    transition: opacity 0.2s ease-out;
+    display: none;
+    width: 50px;
+    height: 50px;
+    opacity: .8;
+}
+#controlsB label:hover {
+    opacity: 1;
+}
+#slide1B:checked ~ #controlsB label:nth-child(4),
+#slide2B:checked ~ #controlsB label:nth-child(1),
+#slide3B:checked ~ #controlsB label:nth-child(2),
+#slide4B:checked ~ #controlsB label:nth-child(3) {
+    background: url('../images/left-chevron.svg') no-repeat;
+    float:left;
+    margin: 0 0 0 0;
+    display: block;
+}
+#slide1B:checked ~ #controlsB label:nth-child(2),
+#slide2B:checked ~ #controlsB label:nth-child(3),
+#slide3B:checked ~ #controlsB label:nth-child(4),
+#slide4B:checked ~ #controlsB label:nth-child(1) {
+    background: url('../images/left-chevron.svg') no-repeat;
+    transform: rotate(180deg);
+    float:right;
+    margin: 0 0 0 0;
+    display: block;
+}
+#bulletsB {
+    margin: 0 0 0 0;
+    text-align: left;
+}
+#bulletsB label {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius:100%;
+    background: #ccc;
+    margin: 0 10px;
+}
+#slide1B:checked ~ #bulletsB label:nth-child(1),
+#slide2B:checked ~ #bulletsB label:nth-child(2),
+#slide3B:checked ~ #bulletsB label:nth-child(3),
+#slide4B:checked ~ #bulletsB label:nth-child(4) {
+    background: #444;
+}
+
+#cheight
+{
+    min-height: 440px;
+}
+
+/*get in touch*/
+
+.getInTouch {
+    background-color: #26a1e4;
+    min-height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Play;
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+
+#getButton {
+    background: transparent;
+    border: solid white 1px;
+    min-height: 50px;
+    min-width: 180px;
+    color: white;
+    display: block;
+    float: right;
+}
+
+@media screen and (max-width: 768px ) {
+    .flexCenterBlyat {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .textCenterBlyat {
+        text-align: center;
+    }
+    
+}
+
+/*footter*/
+
+.footer {
+    min-height: 280px;
+    background-color: #161616;
+    font-family: Play;   
+    display: flex;
+    align-items: center;
+}
+
+.footer p {
+    color: #26a1e4;
+    font-size: 2rem;
+}
+
+.footer div {
+    color: white;
+    font-size: 1.4rem;
+}
+
+.footer .linkPointer {
+    color: #26a1e4;
+}
+
+.linkF {
+    color: white;
+}
+
+.linkF:hover {
+    color: #22a7f0;   
+    transition: color 0.2s linear;    
+    text-decoration: none;
+}
+
+.footer img {
+    margin-right: 3px;
 }

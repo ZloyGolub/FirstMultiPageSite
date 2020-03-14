@@ -282,9 +282,9 @@ body {
 
 /*recentProjects TODO*/
 
-.resP {
 
-}
+
+
 
 /*funFacts */
 
@@ -488,4 +488,111 @@ body {
 
 .footer img {
     margin-right: 3px;
+}
+
+/*about us*/
+
+.AboutUs {
+    background-color: #26a1e4;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    font-family: Play;
+    color: #ffffff;
+}
+
+#about{
+    font-size: 2rem;
+}
+
+#path {
+    text-align: end;
+    font-size: 1.4rem;
+}
+
+/*who we are*/
+
+.WhoWeAre {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-family: OpenSans;
+    font-size: 1.65rem;
+    position: relative;
+    text-align: justify;
+}
+
+.InerWhoWeAre {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    column-gap: 20px;
+}
+.InerWhoWeAre h1{
+    font-family: Play;
+}
+@media screen and (max-width: 992px)
+{
+    .InerWhoWeAre {
+        grid-template-columns: 1fr;
+        font-size: 2rem;
+    }
+}
+
+.InerWhoWeAre img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.InerWhoWeAre button {
+    background: #26a1e4;
+    border: solid white 1px;
+    min-height: 50px;
+    min-width: 180px;
+    color: white;
+    display: block;
+}
+
+/*facts rounds*/
+
+.FunRounds{
+    min-height: 420px;
+    background-color: #363636;
+    color: #fff;
+    font-size: 1.7rem;
+    font-family: Play;
+}
+
+.InerFunRounds {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    column-gap: 30px;
+    row-gap: 40px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+@media screen and (max-width: 992px)
+{
+    .InerFunRounds {
+        grid-template-columns: 1fr;
+        font-size: 2rem;
+    }
+}
+.InerFunRounds div {
+    font-family: OpenSans;
+}
+
+.circle {
+    border: #26a1e4 solid;
+    border-radius: 50%;
+    height: 130px;
+    width: 130px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }

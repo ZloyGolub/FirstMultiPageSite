@@ -128,7 +128,62 @@
         </div>
     </div>
 
+    <div class="WhyWhat">
+        <div class="container">
+            <div class="row">
+                <div class="InerWhyWhat">
+                    <div>
+                        <h1>WHY CHOOSE US</h1>
+                        <br>
+                        <div class="blueblackline">
+                            <div class="bluesquare" id="SQ_1" onclick="WhyFunc('why_1')">></div>
+                            <div class="blackLine">                            
+                                <div>We are creative</div>
+                            </div>
+                        </div>                        
+                        <div class="WhyInfoContent" id="why_1"></div>
+                        <br>
+                        <div class="blueblackline">
+                            <div class="bluesquare" id="SQ_2" onclick="WhyFunc('why_2')">></div>
+                            <div class="blackLine">                            
+                                <div>Proffesional Service</div>
+                            </div>
+                        </div>                        
+                        <div class="WhyInfoContent" id="why_2"></div>
+                        <br>
+                        <div class="blueblackline">
+                            <div class="bluesquare" id="SQ_3" onclick="WhyFunc('why_3')">></div>
+                            <div class="blackLine">                            
+                                <div>15 Years Experience</div>
+                            </div>
+                        </div>                        
+                        <div class="WhyInfoContent" id="why_3"></div>
+                        <br>
+                        <div class="blueblackline">
+                            <div class="bluesquare" id="SQ_4" onclick="WhyFunc('why_4')">></div>
+                            <div class="blackLine">                            
+                                <div>Quality Workmanship</div>
+                            </div>
+                        </div>                        
+                        <div class="WhyInfoContent" id="why_4"></div>     
+                    </div>
 
+
+                    <div>
+                        <h1>WHAT WE DO</h1>
+                        <br>
+                        <div class="WhyInfoContent">
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+                        <br><br>
+                            Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugia.
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
@@ -168,7 +223,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
-                    <p>ABAUT US</p>
+                    <p>ABOUT US</p>
                     <div>Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen</div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
@@ -225,6 +280,70 @@
             )
             $("#about").attr("class", "link active");
         });
+
+        
+
+        function WhyFunc(id){
+            if (id == "why_1"){
+                document.getElementById(id).innerHTML = "As a leader in our industry, we have always worked to develop advanced technology and innovative methods.";
+                
+                var element = document.getElementById('SQ_1');
+                if (element.classList.contains("bluesquare")){
+                    element.classList.remove("bluesquare");
+                    element.classList.add("bluesquareH");
+                }
+                else {
+                    document.getElementById(id).innerHTML = "";
+                    element.classList.remove("bluesquareH");
+                    element.classList.add("bluesquare");
+                }
+            }
+            else if (id == "why_2"){
+                document.getElementById(id).innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio aliquam atque iste fugiat, possimus omnis ea! Rem consequatur suscipit nisi harum optio, dolor quae, debitis minima quam ex, voluptatem porro.";
+                
+                var element = document.getElementById('SQ_2');
+                if (element.classList.contains("bluesquare")){
+                    element.classList.remove("bluesquare");
+                    element.classList.add("bluesquareH");
+                }
+                else {
+                    document.getElementById(id).innerHTML = "";
+                    element.classList.remove("bluesquareH");
+                    element.classList.add("bluesquare");
+                }
+            }
+            else if (id == "why_3"){
+                document.getElementById(id).innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio aliquam atque iste fugiat, possimus omnis ea! Rem consequatur suscipit nisi harum optio, dolor quae, debitis minima quam ex, voluptatem porro.";
+                
+                var element = document.getElementById('SQ_3');
+                if (element.classList.contains("bluesquare")){
+                    element.classList.remove("bluesquare");
+                    element.classList.add("bluesquareH");
+                }
+                else {
+                    document.getElementById(id).innerHTML = "";
+                    element.classList.remove("bluesquareH");
+                    element.classList.add("bluesquare");
+                }
+            }
+            else if (id == "why_4"){
+                document.getElementById(id).innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio aliquam atque iste fugiat, possimus omnis ea! Rem consequatur suscipit nisi harum optio, dolor quae, debitis minima quam ex, voluptatem porro.";
+                
+                var element = document.getElementById('SQ_4');
+                if (element.classList.contains("bluesquare")){
+                    element.classList.remove("bluesquare");
+                    element.classList.add("bluesquareH");
+                }
+                else {
+                    document.getElementById(id).innerHTML = "";
+                    element.classList.remove("bluesquareH");
+                    element.classList.add("bluesquare");
+                }
+            }
+
+        }
+
+
     </script>
 
 </body>

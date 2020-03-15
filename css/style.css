@@ -27,7 +27,7 @@ body {
     text-transform: uppercase;
 }
 
-
+/* HOME (INDEX) PAGE */
 /*top*/
 
 .topForFlexLeft {
@@ -490,7 +490,8 @@ body {
     margin-right: 3px;
 }
 
-/*about us*/
+/* ABOUT AS PAGE -------------------------------------*/
+/*about us--------------------------------------------*/
 
 .AboutUs {
     background-color: #26a1e4;
@@ -601,6 +602,7 @@ body {
 
 .WhyWhat {
     min-height: 300px;
+    text-align: justify;
 }
 
 .InerWhyWhat {
@@ -628,6 +630,14 @@ body {
     font-family: Play; 
 }
 
+@media screen and (max-width: 992px){
+    
+.InerWhyWhat {
+    grid-template-columns: 1fr;
+}
+
+}
+
 .blackLine {
     min-height: 65px;
     background-color: white;
@@ -635,7 +645,7 @@ body {
     display: flex;
     align-items: center;
     padding-left: 2%;
-    border: black solid 1px;
+    /* border: black solid 1px; */
     transition: .2s linear;
 }
 
@@ -643,11 +653,11 @@ body {
     min-height: 65px;
     min-width: 65px;
     background-color: white;    
-    color: black;
+    color: #26a1e4;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border: black solid 1px;   
+    /* border: black solid 1px;    */
     transition: .2s linear;
     cursor: pointer;
 }
@@ -664,6 +674,7 @@ body {
     min-height: 65px;
     min-width: 65px;
     background-color: #26a1e4;    
+    color: #fff;
     display: flex;
     align-items: center;
     justify-content: space-around;    
@@ -688,4 +699,71 @@ body {
     font-family: OpenSans;
     font-size: 1.6rem;
 }
+
+/*our clients say TODO*/
+
+.ClientsSay {
+    background-color: #363636;
+    color: white;
+    min-height: 300px;
+}
+
+/*our crazy team*/
+
+.CrazyTeam {
+    min-height: 300px;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.InerCrazyTeam {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    column-gap: 20px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 992px){
+    .InerCrazyTeam {
+    grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 544px){
+    .InerCrazyTeam {
+    grid-template-columns: 1fr;
+    /* margin: 20px 50px 0 50px; */
+    }
+}
+
+.InerCrazyTeam img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#nameH {
+    font-size: 3rem;
+}
+
+#exampleL {
+    font-size: 2.4rem;
+}
+
+/* PAGES dos`n have model */
+
+/* PROJECT PAGE TODO---------------------------------- */
+
+
+
+
+
+
+
+/* BLOG (NEWS) TODO------------------------------------ */
+
+
+/* CONTACT */
 

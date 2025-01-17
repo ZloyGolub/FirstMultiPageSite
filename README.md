@@ -1,11 +1,11 @@
-# First Multi-Page Website
+# Mastia Multi Page front end
 
 ## Overview
 This project is a multi-page website designed to demonstrate a simple, yet effective layout for a web application. It includes multiple pages such as Home, About, Services, and Contact.
 
 ## Site preview 
 ![Image](img/preview.png)
-- [**Site link**](https://zloygolub.github.io/FirstMultiPageSite/)
+- [**Site link**](https://zloygolub.github.io/Mastia/)
 
 ## Features
 - **Responsive Design**: The layout is fully responsive and works on all devices.

@@ -21,10 +21,17 @@ body {
 }
 
 .paragraphStyle {
-    font-family: Play;
+    font-family: Play, sans-serif; /* Основной шрифт для большинства устройств */
     font-size: 3rem;
     color: #22a7f0;
     text-transform: uppercase;
+}
+
+/* Медиа-запрос для iPhone */
+@media only screen and (max-width: 768px) {
+    .paragraphStyle {
+        font-family: Calibri, sans-serif; /* Шрифт для iPhone */
+    }
 }
 
 /* HOME (INDEX) PAGE */

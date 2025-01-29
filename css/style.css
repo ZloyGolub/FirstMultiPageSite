@@ -772,7 +772,30 @@ body {
 
 
 /* BLOG (NEWS) TODO------------------------------------ */
-
-
+.img-fluid {
+    object-fit: cover;
+    width: 100%;
+    max-height: 280px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.img-fluid:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
 /* CONTACT */
+.contact_us{
+    font-size: 2rem;
+}
 
+
+.button_contact {
+    border-color: #22a7f0;
+    background-color: #22a7f0;
+    border: solid white 1px;
+    min-height: 50px;
+    min-width: 180px;
+    color: white;
+    display: block;
+}
